@@ -202,7 +202,7 @@ class Datas extends ChangeNotifier {
   }
 
   // Liste de vidéos YouTube préchargées (à des fins de démonstration)
-  List<Youtube> tutorialsViews = [
+ List<Youtube> tutorialsViews = [
     Youtube(
         title: "If life were like web design — Webflow",
         videoId: "Ojiv9Smi4XE",
@@ -211,6 +211,40 @@ class Datas extends ChangeNotifier {
             " Sign up ...",
         publishedAt: "2021-01-14",
         channelName: "Webflow"),
-    // Ajouter d'autres vidéos préchargées ici...
+    Youtube(
+      title:
+          "Introduction to HTML, CSS, JavaScript &amp; How websites work? | Web Development Tutorials #1",
+      videoId: "6mbwJ2xhgzM",
+      desc:
+          "Source Code & Notes: https://codewithharry.com/videos/web-development-in-hindi-1 "
+          "▻This video is a part of this Complete Web ...",
+      publishedAt: "2019-12-25",
+      channelName: "CodeWithHarry",
+    ),
+    Youtube(
+      title:
+          "Web Development Full Course - 10 Hours | Web Development Course Roadmap 2024 | Edureka",
+      videoId: "Q33KBiDriJY",
+      desc: "Web Development Full Course (Use Code 'YOUTUBE20'): ...",
+      publishedAt: "2019-07-28",
+      channelName: "edureka!",
+    ),
+    Youtube(
+      title: "Introduction to Web Development | World&#39;s most premium"
+          " Web Development Course | Lecture 0 (Reupload)",
+      videoId: "l1EssrLxt7E",
+      desc: "Are you worried about placements/internships? Want to prepare for"
+          " companies like Microsoft, Amazon & Google? Join ALPHA.",
+      publishedAt: "2020-12-12",
+      channelName: "Apna College",
+    ),
+    Youtube(
+      title: "Web Development Tutorials For Beginners",
+      videoId: "PLoYCgNOIyGAB_8_iq1cL8MVeun7cB6eNc",
+      desc: "If you're wanting to learn web development and learn web dev fast,"
+          " this is your place! I'll cover overviews of each piece of ...",
+      publishedAt: "2014-01-17",
+      channelName: "LearnCode.academy",
+    ),
   ];
 }
